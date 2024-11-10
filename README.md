@@ -18,7 +18,7 @@ Welcome to the EcoAIFinder Platform, a comprehensive solution for recommending e
 ## Project Structure
    ```bash
 
-EcoAI
+EcoAIFinder
 │
 ├── Backend
 │   ├── chatrun.py
