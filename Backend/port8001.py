@@ -132,9 +132,9 @@ async def recommend(user_query: UserQuery):
     
     return {"recommendations": recommendations}
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("chatrun:app", host="127.0.0.1", port=8001, reload=True)
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run("chatrun:app", host="127.0.0.1", port=8001, reload=True)
 
 # To run the FastAPI app on a different port, use the following command:
 # uvicorn chatrun:app --host 127.0.0.1 --port 8001
