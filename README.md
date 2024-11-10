@@ -1,4 +1,3 @@
-```markdown
 # EcoAIFinder  Platform
 
 Welcome to the EcoAIFinder Platform, a comprehensive solution for recommending eco-friendly AI tools. This platform allows users to receive recommendations through two methods: selecting a category and preference or inputting a text-based query. The backend is powered by FastAPI, and the frontend is built with React and Vite.
@@ -18,7 +17,7 @@ Welcome to the EcoAIFinder Platform, a comprehensive solution for recommending e
 
 ## Project Structure
 
-```
+
 EcoAI
 │
 ├── Backend
@@ -42,7 +41,7 @@ EcoAI
 │   └── vite.config.js
 │
 └── README.md
-```
+
 
 ## Getting Started
 
@@ -158,4 +157,3 @@ We welcome contributions to enhance the EcoAI Finder Platform. Please fork the r
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE file](/LICENSE.txt) file for details.
-```
