@@ -157,5 +157,5 @@ We welcome contributions to enhance the EcoAI Finder Platform. Please fork the r
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE file](/LICENSE.txt) file for details.
 ```
