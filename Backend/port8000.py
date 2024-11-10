@@ -91,9 +91,9 @@ async def get_recommendations(request: RecommendationRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 # Run the FastAPI application with uvicorn if the script is executed directly
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("run:app", host="127.0.0.1", port=8000, reload=True)
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run("run:app", host="127.0.0.1", port=8000, reload=True)
 #     import subprocess
 
 # # Run the first FastAPI app on port 8000
