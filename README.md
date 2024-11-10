@@ -16,32 +16,32 @@ Welcome to the EcoAIFinder Platform, a comprehensive solution for recommending e
 - [License](#license)
 
 ## Project Structure
+   ```bash
 
-## EcoAI
-
-### Backend
-- **chatrun.py**: Handles text-based queries for recommendations
-- **run.py**: Manages the main backend application
-- **model.py**: Defines machine learning models and logic
-- **dtagen.py**: Generates datasets for training
-- **genrate_dataset.py**: Script for creating datasets
-- **readme.md**: Documentation for the Backend
-- **requirements.txt**: Python dependencies for the Backend
-
-### Frontend
-- **src**
-  - **components**: React components for the UI
-  - **data**: Data-related files (e.g., API handlers)
-  - **App.jsx**: Main React application entry point
-  - **index.jsx**: Renders the root component of the app
-- **public**: Static files like images, icons, etc.
-- **README.md**: Documentation for the Frontend
-- **package.json**: npm dependencies and scripts for Frontend
-- **vite.config.js**: Configuration file for [Vite](https://vitejs.dev/)
-
-### Main Documentation
-- **README.md**: Main documentation for the project
-
+EcoAI
+│
+├── Backend
+│   ├── chatrun.py
+│   ├── run.py
+│   ├── model.py
+│   ├── dtagen.py
+│   ├── genrate_dataset.py
+│   ├── readme.md
+│   └── requirements.txt
+│
+├── Frontend
+│   ├── src
+│   │   ├── components
+│   │   ├── data
+│   │   ├── App.jsx
+│   │   └── index.jsx
+│   ├── public
+│   ├── README.md
+│   ├── package.json
+│   └── vite.config.js
+│
+└── README.md
+```
 
 ## Getting Started
 
@@ -57,8 +57,8 @@ Welcome to the EcoAIFinder Platform, a comprehensive solution for recommending e
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/sustainable-ai-tools.git
-   cd sustainable-ai-tools
+   git clone https://github.com/ShashankSingh614/EcoAIFinder.git
+   cd EcoAIFinder
    ```
 
 2. **Install Backend Dependencies:**
@@ -79,6 +79,20 @@ Welcome to the EcoAIFinder Platform, a comprehensive solution for recommending e
    npm install
    ```
 
+
+### Running the Backend
+
+1. **Run the Category and Preference API:**
+
+   ```bash
+   uvicorn port8000:app --host 127.0.0.1 --port 8000 --reload
+   ```
+
+2. **Run the Text-Based Query API:**
+
+   ```bash
+   uvicorn port8001:app --host 127.0.0.1 --port 8001 --reload
+   ```
 ## Backend
 
 The backend is built using FastAPI and provides two main endpoints for recommendations.
@@ -109,20 +123,6 @@ The backend is built using FastAPI and provides two main endpoints for recommend
       "user_query": "Please recommend tools for energy-efficient machine learning with a focus on accuracy."
     }
     ```
-
-### Running the Backend
-
-1. **Run the Category and Preference API:**
-
-   ```bash
-   uvicorn run:app --host 127.0.0.1 --port 8000 --reload
-   ```
-
-2. **Run the Text-Based Query API:**
-
-   ```bash
-   uvicorn chatrun:app --host 127.0.0.1 --port 8001 --reload
-   ```
 
 ## Frontend
 
